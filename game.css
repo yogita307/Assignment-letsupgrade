@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    
+    
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px purple;
+    
+}
+input[type=text] {
+  background-color: #c030a8;
+  color: white;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid black; 
+}
+.dice  {
+    background-color: aquamarine;
+    border: 5px solid black; 
+    cursor: pointer;
+    color: peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#endgame{
+    
+    
+    cursor: pointer;
+    color: red;
+}
+#winMessage{
+    color:black;
+    font-size: xx-large;
+   text-shadow: 100px rgb(160, 122, 85) ;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bolder;
+   
+}
+.dice:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
